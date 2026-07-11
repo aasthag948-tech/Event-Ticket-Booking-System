@@ -124,6 +124,62 @@ section {
 
 .event-card .event-location {
   color: #457b9d;
+  margin-bottom: 0.75rem;
+}
+
+.event-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.book-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1.25rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffd166;
+  color: #1a1a2e;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.book-btn:hover {
+  background-color: #ffc233;
+}
+
+/* ===== Event Details Section ===== */
+.event-details {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.event-details-icon {
+  font-size: 5rem;
+  flex-shrink: 0;
+}
+
+.event-details-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.event-details-info ul {
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+.event-details-info li {
+  margin-bottom: 0.4rem;
+  color: #333;
 }
 
 /* ===== Footer ===== */
