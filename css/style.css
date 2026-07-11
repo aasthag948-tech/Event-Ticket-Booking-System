@@ -150,6 +150,88 @@ section {
   background-color: #ffc233;
 }
 
+.book-btn.booked {
+  background-color: #2a9d8f;
+  color: #fff;
+  cursor: default;
+}
+
+/* ===== Toggle Button ===== */
+.toggle-btn {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  padding: 0.5rem 1.25rem;
+  border: 2px solid #1a1a2e;
+  border-radius: 5px;
+  background-color: transparent;
+  color: #1a1a2e;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.toggle-btn:hover {
+  background-color: #1a1a2e;
+  color: #fff;
+}
+
+.event-details.hidden {
+  display: none;
+}
+
+/* ===== Booking Form ===== */
+.booking-form-wrapper {
+  margin-top: 2rem;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  max-width: 500px;
+}
+
+.booking-form-wrapper h3 {
+  margin-bottom: 1.25rem;
+}
+
+.form-group {
+  margin-bottom: 1.25rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+  color: #1a1a2e;
+}
+
+.form-group input,
+.form-group select {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 0.95rem;
+}
+
+.form-group input.input-error,
+.form-group select.input-error {
+  border-color: #e63946;
+}
+
+.error-message {
+  color: #e63946;
+  font-size: 0.85rem;
+  margin-top: 0.3rem;
+  min-height: 1rem;
+}
+
+.success-message {
+  margin-top: 1rem;
+  color: #2a9d8f;
+  font-weight: 600;
+}
+
 /* ===== Event Details Section ===== */
 .event-details {
   display: flex;
